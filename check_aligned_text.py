@@ -20,6 +20,10 @@ if target_lang == "de":
     nlp = spacy.load("de_dep_news_trf")
 elif target_lang == "de":
     nlp = spacy.load("fr_dep_news_trf")
+elif target_lang == "es":
+    nlp = spacy.load("es_dep_news_trf")
+elif target_lang == "pl":
+    nlp = spacy.load("pl_core_news_lg")
 else:
     nlp = spacy.load("en_core_web_trf")
 

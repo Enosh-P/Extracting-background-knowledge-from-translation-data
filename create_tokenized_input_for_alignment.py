@@ -7,10 +7,10 @@ import pandas as pd
 current_path = Path(__file__).parent.parent
 
 # parameters
-filepath = "euro_parl_data/parallels_de_original.tsv"
-output_path = "fast_align/to_align"
-source_lang = "de"
-dest_lang = "en"
+filepath = "euro_parl_data/parallels_original_it.tsv"
+output_path = "eflomal/to_align"
+source_lang = "it"
+dest_lang = "de"
 
 
 def create_source_target_files(parallel_dataset):
